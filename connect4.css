@@ -4,13 +4,21 @@ body {
   background-attachment: fixed;
 }
 
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-family: 'Lobster', cursive;
+}
 
 #board {
   margin: auto;
   width: 90vw;
   height: 90vw;
-  max-width: 650px;
-  max-height: 650px;
+  max-width: 450px;
+  max-height: 450px;
 }
 
 
