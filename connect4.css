@@ -37,6 +37,13 @@ h1 {
   width: 80%;
   height: 80%;
   border-radius: 50%;
+  animation-name: drop;
+  animation-duration: 1s;
+}
+
+@keyframes drop {
+  from {transform: translateY(-700%);}
+  to {transform: translateY(0%);}
 }
 
 .piece.p1 {
